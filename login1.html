@@ -32,50 +32,43 @@
                 <h2>Insira seus dados</h2>
                 <label for="firstName">
                     <legend>Nome</legend>
-                        <input type="text" placeholder="Name" required> <!--Required para ser NÃO NULO-->
+                        <input type="text" placeholder="Name" name="nome" required> <!--Required para ser NÃO NULO-->
                 </label>
 
                 <br>
                 <br>
                 <label for="lastName">
                     <legend>Sobrenome</legend>
-                        <input type="text" placeholder="Lastname">
+                        <input type="text" placeholder="Lastname" name="last" required>
                 </label>
 
                 <br>
                 <br>
                 <label for="age">
                     <legend>Idade</legend>
-                        <input type="number" placeholder="Age" min="1" max="110" name="age" id="age" style="width: 10%;" required>
+                        <input type="number" placeholder="Age" name="age" min="1" max="110" style="width: 10%;" required>
                 </label>
 
                 <br>
                 <br>
                 <label for="nickName">
                     <legend>Apelido</legend>
-                        <input type="text" placeholder="nickname" name="nickName" id="nickName" required>
+                        <input type="text" placeholder="nickname" name="nickname" id="nickName" required>
                 </label>
                 
                 <br>
                 <br>
-                <label for="sexo">
-                    <legend>Sexo</legend>
-                        <br>
-                        <input type="radio" name="sexo" id="sexo" style="width: 5%;" required> Masculino
-                        <br>
-                        <input type="radio" name="sexo" id="sexo" style="width: 5%;" required> Feminino
-                        <br>
-                        <input type="radio" name="sexo" id="sexo" style="width: 5%;" required> Outros
-                        <br>
-                        <input type="radio" name="sexo" id="sexo" style="width: 5%;" required> Prefiro não dizer
+                <label for="foto">
+                    <input type="file" name="foto" id="foto" accept=".png,.jpeg,.jpg" required>
                 </label>
-
                 <br>
                 <br>
                 <label for="button">
                     <input type="submit" value="Enviar" style="background-color: green; float: left;width: 15%;border-radius: 20px;">
                     <input type="reset" value="Apagar" style="background-color: red; float: right;width: 15%;border-radius: 20px;">
                 </label>
+                <br>
+                
             </fieldset>
         </form>
     </div>
