@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRO - FNAF</title>
+
+    <style>
+        * {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        body {
+            background-color: rgb(209, 195, 195);
+        }
+
+        input {
+            width: 35%;
+        }
+
+        .field {
+            width: 40%;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <div id="form">
+        <form action="login2.html" method="post">
+            <fieldset class="field" style="background-color: rgb(189, 189, 189);"><legend><strong><p style="font-size: 25px;">CADASTRO</p></strong></legend>
+                <h2>Insira seus dados</h2>
+                <label for="firstName">
+                    <legend>Nome</legend>
+                        <input type="text" placeholder="Name" required> <!--Required para ser NÃO NULO-->
+                </label>
+
+                <br>
+                <br>
+                <label for="lastName">
+                    <legend>Sobrenome</legend>
+                        <input type="text" placeholder="Lastname">
+                </label>
+
+                <br>
+                <br>
+                <label for="age">
+                    <legend>Idade</legend>
+                        <input type="number" placeholder="Age" min="1" max="110" name="age" id="age" style="width: 10%;" required>
+                </label>
+
+                <br>
+                <br>
+                <label for="nickName">
+                    <legend>Apelido</legend>
+                        <input type="text" placeholder="nickname" name="nickName" id="nickName" required>
+                </label>
+                
+                <br>
+                <br>
+                <label for="sexo">
+                    <legend>Sexo</legend>
+                        <br>
+                        <input type="radio" name="sexo" id="sexo" style="width: 5%;" required> Masculino
+                        <br>
+                        <input type="radio" name="sexo" id="sexo" style="width: 5%;" required> Feminino
+                        <br>
+                        <input type="radio" name="sexo" id="sexo" style="width: 5%;" required> Outros
+                        <br>
+                        <input type="radio" name="sexo" id="sexo" style="width: 5%;" required> Prefiro não dizer
+                </label>
+
+                <br>
+                <br>
+                <label for="button">
+                    <input type="submit" value="Enviar" style="background-color: green; float: left;width: 15%;border-radius: 20px;">
+                    <input type="reset" value="Apagar" style="background-color: red; float: right;width: 15%;border-radius: 20px;">
+                </label>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

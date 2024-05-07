@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG - FNAF</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            color: rgb(199, 199, 199);
+            text-align: center;
+        }
+
+
+
+        /*SEÇÃO HEADER*/
+        header {
+            background-color: rgb(60, 60, 60);
+        }
+
+
+
+        /*SEÇÃO NAV*/
+        nav {
+            background-color: rgb(60, 60, 60);
+            height: 80px;
+            align-items: center;
+            margin-left: auto;   /*alinhar lista*/
+            margin-right: auto;  /*alinhar lista*/
+        }
+        ul {
+            margin-left: 25%;
+            margin-right: 25%;
+        }
+
+        li {
+            /*Manter os li em linha*/
+            font-size: 25px;
+            list-style: none;  
+            margin-left: 8%;
+            float: left;
+        }
+
+
+        /*SEÇÃO MAIN*/
+        main {
+            padding-top: 2%;
+            background-color: rgb(60, 60, 60);
+            align-items: center;
+        }
+        div {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #gameplay {
+            background-color: rgb(45, 45, 45);
+            
+        }
+        h1 {
+            color: white;
+            font-weight: bold;
+        }
+        p {
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .trailer {
+            border-radius: 40px;
+        }
+        table {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        input textarea {
+            color: black;
+        }
+        #animatronics {
+            background-color: rgb(60, 60, 60);
+            width: 50%;
+        }
+
+
+
+        /*SEÇÃO FOOTER*/
+        footer {
+            background-color: rgb(60, 60, 60);
+            height: 200px;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <header id="header">
+        <img src="arquivos/fnafLogo.png" alt="Logo do FNAF">
+    </header>
+
+    <hr>
+
+    <nav id="nav">
+        <ul>
+            <a href="index.html"><li>HOME</li></a>
+            <a href="#filmes"><li>FILMES</li></a>
+            <a href="#gameplay"><li>JOGOS</li></a>
+            <a href="login1.html" target="_blank"><li>LOGIN</li></a>
+            <a href="#sobre"><li>SOBRE</li></a>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <main id="filmes">
+        <h1>TRAILER</h1>
+        <br>
+            <a href="https://www.youtube.com/watch?v=MKNl7ZDQmvk" target="_blank">
+                <img class="trailer" src="arquivos/fnafTrailer.png" alt="Fnaf Trailer Foto">
+            </a>
+        
+        <br>
+        <br>
+        <h1>O que é FNAF</h1>
+            <p style="width: 50%;">
+                FNAF, abreviação de "Five Nights at Freddy's", é uma série de jogos de terror criada por Scott Cawthon. 
+                Nos jogos, os jogadores assumem o papel de um guarda noturno que trabalha em uma pizzaria chamada Freddy 
+                Fazbear's Pizza. O objetivo é sobreviver a cinco noites consecutivas enquanto é perseguido por animatrônicos
+                sinistros que ganham vida à noite. A série ganhou popularidade devido à sua atmosfera assustadora, jogabilidade
+                tensa e uma história intrigante, que envolve mistérios sobre a origem dos animatrônicos e os eventos macabros
+                que ocorreram na pizzaria.
+            </p>
+        <br>
+        
+        <div id="gameplay">
+            <h1>Gameplay</h1>
+            <br>
+                <p>FNAF é um jogo com elementos de point-and-click, que o jogador atua como um guarda noturno da pizzaria, em que tem
+                que sobreviver das 11 horas da noite até 6 horas da manhã na pizzaria em que tem 4 animatrônicos tentando te matar</p>
+                
+                <br>
+                <p>O jogador, sozinho em um escritório, tem acesso a uma rede de câmeras de segurança que fornecem vistas 
+                de várias partes do restaurante.Essas câmeras são usadas para rastrear os movimentos dos animatrônicos 
+                durante a noite. Cada personagem animatrônico possui padrões de movimentos distintos, e a maior parte desses
+                movimentos ocorre fora da tela.A rede de câmeras é pouco iluminada e composta por ruídos, e uma câmera de
+                segurança, localizada na cozinha, fornece apenas uma escuta de áudio. As câmeras não cobrem certas áreas
+                do edifício, principalmente os dois corredores diretamente à esquerda e à direita do jogador, que exigem
+                verificação por luzes que o jogador pode controlar clicando em um botão localizado ao 
+                lado de cada porta em seu escritório. O jogador não pode sair do escritório e deve fechar as portas
+                do mesmo para autodefesa, o que também pode ser feito clicando nos botões adjacentes a cada porta.</p>
+
+                <br>
+            <table>  <!--Tabelas de imagens gameplay-->
+                <tr>
+                    <td><img class="gameplayIMG" src="arquivos/fnafGameplay1.png" alt="Gameplay 1 FNAF"></td>
+                    <td><img class="gameplayIMG" src="arquivos/fnafGameplay2.png" alt="Gameplay 2 FNAF"></td>
+                </tr>
+                <tr>
+                    <td><img class="gameplayIMG" src="arquivos/fnafGameplay3.png" alt="Gameplay 3 FNAF"></td>
+                    <td><img class="gameplayIMG" src="arquivos/fnafGameplay4.png" alt="Gameplay 4 FNAF"></td>
+                </tr>
+                <tr>
+                    <td><img class="gameplayIMG" src="arquivos/fnafGameplay5.png" alt="Gameplay 5 FNAF"></td>
+                    <td><img class="gameplayIMG" src="arquivos/fnafGameplay6.png" alt="Gameplay 6 FNAF"></td>
+                </tr>
+            </table>
+            <br>
+                <!-- <img style="float: left;" src="arquivos/fnafGameplay1.png" alt="Gameplay 1 FNAF">
+            <img style="width: 200px;" src="arquivos/fnafGameplay2.png" alt="Gameplay 2 FNAF"> -->
+            <br>
+            <p>O uso dessas mecânicas (câmeras, luzes e portas) consome energia elétrica limitada do jogador; se
+                 toda energia acabar, as câmeras ficam inoperantes, as portas abrem e as luzes se apagam. O principal
+                  animatrônico do restaurante, Freddy Fazbear, aparecerá posteriormente na porta esquerda com luzes piscando
+                   em seus olhos, enquanto uma versão em caixa de música da canção "Toreador March" toca. Após um período
+                    de tempo aleatório, o escritório ficará escuro e Freddy dará um jumpscare no jogador, resultando no final
+                     do jogo, a menos que o jogador chegue às 6 da manhã antes que isso ocorra. Se o jogador sofrer um jumpscare
+                      por qualquer um dos animatrônicos, deverá reiniciar desde o início da noite.</p>
+            <br>
+        </div>
+        <br>
+
+
+        </div>
+        <div id="animatronics">
+            <br>
+            <h1>Principais Animatrônicos</h1>
+            <br>
+            <a href="https://freddy-fazbears-pizza.fandom.com/pt-br/wiki/Freddy_Fazbear" target="_blank"><img src="arquivos/freddy.png" alt="Freddy"></a>
+            <a href="https://freddy-fazbears-pizza.fandom.com/pt-br/wiki/Bonnie" target="_blank"><img src="arquivos/bonnie.png" alt="Bonnie"></a>
+            <br>
+            <a href="https://freddy-fazbears-pizza.fandom.com/pt-br/wiki/Chica" target="_blank"><img src="arquivos/chica.png" alt="Chica"></a>
+            <a href="https://freddy-fazbears-pizza.fandom.com/pt-br/wiki/Foxy" target="_blank"><img src="arquivos/foxy.png" alt="Foxy"></a>
+        </div>
+
+<br>
+
+
+        <div id="comentarios">
+            <form action="login.html" method="get">
+                <fieldset style="width: 50%;margin-left: auto;margin-right: auto;color: black;"> <legend style="font-size: 25px;">Comentar</legend>
+                    <label for="comentario">
+                        <br>
+                        <textarea placeholder="Digite seu comentário" name="commit" id="commit" cols="40" rows="5" style="color: black;"></textarea>
+                        <br>
+                        <strong>Imagem:</strong><input type="file" name="archive" id="archive" accept=".png,.jpg,.jpeg">   <!--ACCEPT so tal arquivo-->
+                        <br>
+                        <br>
+                        <input type="reset" value="Enviar" style="background-color: green; float: center;">    <!--Botão de submit falso-->
+                    </label>
+                </fieldset>
+            </form>
+            <br>
+        </div>
+    </main>
+
+    <hr>
+        
+    <footer id="sobre">
+        <br>
+        <h2>Sobre</h2>
+        <p style="margin-top: 4%;">Nosso site é voltado para os fans de FNAF</p>
+    </footer>
+</body>
+</html>
